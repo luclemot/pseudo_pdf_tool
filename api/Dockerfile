@@ -1,4 +1,4 @@
-FROM continuumio/miniconda3
+FROM continuumio/miniconda3:latest
 
 WORKDIR usr/src/pdf_pseudo_api
 
