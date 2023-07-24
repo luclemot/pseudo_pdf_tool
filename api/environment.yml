@@ -84,7 +84,6 @@ dependencies:
     - dill==0.3.6
     - distlib==0.3.6
     - distro==1.7.0
-    - distro-info===1.1build1
     - Django==3.2.16
     - django-annoying==0.10.6
     - django-cors-headers==3.6.0
