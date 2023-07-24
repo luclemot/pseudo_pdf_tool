@@ -1,6 +1,5 @@
-name: pseudo_pdf_env
-dependencies:
-  - gunicorn=20.1.0
+ dependencies:
+  - uvicorn =  0.22.0
   - python=3.10
   - conda=23.5.2
   - pip:
