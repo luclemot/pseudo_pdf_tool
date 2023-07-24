@@ -105,7 +105,6 @@ dependencies:
     - drf-generators==0.3.0
     - drf-yasg==1.20.0
     - dulwich==0.20.50
-    - dynamic-reconfigure==1.7.2
     - easyocr==1.7.0
     - ebcdic==1.1.1
     - edsnlp==0.7.4
