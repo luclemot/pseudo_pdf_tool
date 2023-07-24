@@ -1,7 +1,8 @@
 name: pdf_pseudo_env
 dependencies:
   - python=3.10
-  - conda=23.5.2
+  - conda=23.5.24
+  - fastapi = 0.100.0
   - uvicorn = 0.22.0
   - pip:
     - aiofiles==23.1.0
