@@ -11,8 +11,6 @@ dependencies:
     - anonympy==0.3.7
     - ansi2html==1.8.0
     - aiofiles==22.1.0
-    - iosignal==1.3.1
-    - iosqlite==0.19.0
     - nonymeter==0.0.1
     - nonymizer==0.0.6
     - nonympy==0.3.7
