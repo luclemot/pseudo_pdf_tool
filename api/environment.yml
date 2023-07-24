@@ -131,7 +131,6 @@ dependencies:
     - future==0.18.2
     - gcsfs==2023.4.0
     - gdown==4.4.0
-    - gencpp==0.6.5
     - genlisp==0.4.18
     - genmsg==0.5.16
     - genpy==0.6.16
