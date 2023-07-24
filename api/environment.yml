@@ -1,8 +1,8 @@
  dependencies:
-  - uvicorn =  0.22.0
   - python=3.10
   - conda=23.5.2
   - pip:
+    - uvicorn == 0.22.0
     - aiofiles==23.1.0
     - annotated-types==0.5.0
     - anyio==3.7.1
