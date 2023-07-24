@@ -121,6 +121,7 @@ pip:
   - ynamic-reconfigure==1.7.2
   - asyocr==1.7.0
   - bcdic==1.1.1
+  - gunicorn=20.0.4=py37_0
   - ds-pseudonymisation @ file:///home/dinum/Documents/anonymisation/eds-pseudo
   - dsnlp==0.7.4
   - dspdf==0.5.3
