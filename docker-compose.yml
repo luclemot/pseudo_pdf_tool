@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-  pseudo_api:
-    container_name: pseudo_api
+  pdf_pseudo_api:
+    container_name: pdf_pseudo_api
     restart: always
     build: https://github.com/luclemot/pseudo_pdf_tool.git#main:pseudo_api
     ports:
@@ -16,4 +16,4 @@ services:
     ports:
       - "80:80"
     depends_on:
-      - pseudo_api
+      - pdf_pseudo_api
