@@ -7,13 +7,14 @@ services:
     build: https://github.com/luclemot/pseudo_pdf_tool.git#main:api
     ports:
       - "8012:8000"
-    command: gunicorn -w 2 --timeout 90 -b 0.0.0.0:8000 wsgi:server
+    command: uvicorn api.main:app --reload --host 0.0.0.0 --port 8000
+    
 
   nginx:
-    container_name: nginx
+    container_name: pdf_nginx
     restart: always
     build: ./nginx
     ports:
-      - "80:80"
+      - "81:80"
     depends_on:
       - pdf_pseudo_api
