@@ -1,6 +1,7 @@
 name: pseudo_pdf_env
 dependencies:
-  - gunicorn=20.0.4=py37_0
+  - gunicorn=20.0.4
+  - python=3.10
   - pip:
     - aiofiles==22.1.0
     - aiohttp==3.8.4
