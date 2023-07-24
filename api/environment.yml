@@ -42,8 +42,6 @@ dependencies:
     - cachy==0.3.0
     - cape-dataframes==0.3.1
     - catalogue==2.0.8
-    - catkin==0.8.10
-    - catkin-pkg==0.4.24
     - certifi==2020.6.20
     - cffi==1.15.1
     - chardet==3.0.4
