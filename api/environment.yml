@@ -36,7 +36,6 @@ dependencies:
     - botocore==1.19.63
     - boxing==0.1.4
     - bpemb==0.3.4
-    - Brlapi==0.8.3
     - build==0.10.0
     - CacheControl==0.12.11
     - cachetools==5.3.0
