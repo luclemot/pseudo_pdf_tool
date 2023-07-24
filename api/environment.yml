@@ -64,7 +64,6 @@ dependencies:
     - coreschema==0.0.4
     - crashtest==0.3.1
     - cryptography==3.4.8
-    - cupshelpers==1.0
     - customtkinter==5.1.3
     - cycler==0.11.0
     - cymem==2.0.7
