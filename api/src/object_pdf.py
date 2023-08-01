@@ -4,7 +4,7 @@ import fitz
 from typing import List
 
 
-from api.src.utils import response_to_str, pdf_to_image, pseudo, pseudo_geo
+from utils import response_to_str, pdf_to_image, pseudo, pseudo_geo
 
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 
