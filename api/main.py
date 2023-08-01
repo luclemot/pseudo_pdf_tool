@@ -1,7 +1,7 @@
 from typing import Union
 from fastapi import FastAPI, UploadFile, File, Form, HTTPException, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
-from object_pdf import Pseudo_pdf
+from api.src.object_pdf import Pseudo_pdf
 import aiofiles
 from fastapi.responses import FileResponse
 from random import randint
