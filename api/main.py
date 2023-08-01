@@ -53,7 +53,7 @@ async def upload_script(
     params = {"LOC": LOC, "PER": PER}
     if file:
         filename = str(randint(0, 1000000)) + ".pdf"
-        file_path = "api/data/" + filename
+        file_path = "data/" + filename
         output_path = file_path[:-4] + "update.pdf"
         async with aiofiles.open(file_path, "wb") as out_file:
             content = await file.read()  # async read
