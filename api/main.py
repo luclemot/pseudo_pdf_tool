@@ -34,6 +34,9 @@ app.add_middleware(
 def remove_file(path: str) -> None:
     os.unlink(path)
 
+@app.get("/")
+async def root():
+    return({"State":"success"})
 
 @app.post("/upload-pdf/")
 async def upload_script(
