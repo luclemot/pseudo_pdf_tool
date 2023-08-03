@@ -18,7 +18,7 @@ app = FastAPI()
 db = {}
 
 origins = [
-    "http://localhost:3000",
+    "http://0.0.0.0:8012",
     "*",
 ]
 
