@@ -181,8 +181,9 @@ class Pseudo_page:
 
 if __name__ == "__main__":
     temp = Pseudo_pdf(
-        "data/example.pdf",
+        "../docs/CNDA 14 octobre 2021 les enfants A. n°s 21018964 - 21018965 - 21018966 - 21018967 R.pdf",
         "data/Output_trial.pdf",
-        False,
+        True,
         {"PER": True, "LOC": True},
     )
+    temp.load_file_save()
