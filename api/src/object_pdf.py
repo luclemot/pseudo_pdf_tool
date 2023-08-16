@@ -4,7 +4,7 @@ import fitz
 from typing import List
 
 
-from src.utils import response_to_str, pdf_to_image, pseudo, pseudo_geo
+from utils import response_to_str, pdf_to_image, pseudo, pseudo_geo
 
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 
@@ -181,6 +181,8 @@ class Pseudo_page:
 
 if __name__ == "__main__":
     temp = Pseudo_pdf(
-        "data/example.pdf", "data/Output_trial.pdf", False, {"PER": True, "LOC": True}
+        "data/example.pdf",
+        "data/Output_trial.pdf",
+        False,
+        {"PER": True, "LOC": True},
     )
-    temp.load_file_save()
