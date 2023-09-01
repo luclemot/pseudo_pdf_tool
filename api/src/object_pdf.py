@@ -159,7 +159,7 @@ class Pseudo_page:
         )
         pass
 
-    def pseudo_all(self, file_ners: dict, params: dict):
+    def pseudo_all(self, file_ners: list, params: dict):
         """
         Pseudonymizes all NERs within the file."""
         for i, ner in enumerate(file_ners):
